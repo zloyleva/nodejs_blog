@@ -8,4 +8,4 @@ show: #show docker's containers
 	@sudo docker ps
 
 connect_db: #Connect
-	@docker-compose exec db bash
+	@sudo docker-compose exec db bash
